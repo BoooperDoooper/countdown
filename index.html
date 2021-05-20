@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Birthday CountDown</title>
+</head>
+<body>
+    <h1>Your Happiness in...</h1>
+    <button id="changeAlt"><i class="fas fa-undo-alt"></i></button>
+    <div id="input"><input type="text" placeholder="Ex: 24 Nov 2021" name="input"></div>
+
+    <div class="countdown-container">
+        <div class="countdown-element weeks-c">
+            <p class="bigText" id="weeks">0</p>
+            <span>Weeks</span>
+        </div>
+        <div class="countdown-element days-c">
+            <p class="bigText" id="days">0</p>
+            <span>Days</span>
+        </div>
+        <div class="countdown-element hours-c">
+            <p class="bigText" id="hours">0</p>
+            <span>Hours</span>
+        </div>
+        <div class="countdown-element minutes-c">
+            <p class="bigText" id="minutes">0</p>
+            <span>Minutes</span>
+        </div>
+        <div class="countdown-element seconds-c">
+            <p class="bigText" id="seconds">0</p>
+            <span>Seconds</span>
+        </div>
+    </div>
+    <div>
+        <p id="dayOfWeek">Wednesday</p>
+    </div>
+</body>
+</html>
